@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D459154281D4F6400ACEA6C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D459153281D4F6400ACEA6C /* SplashView.swift */; };
+		6DCF3632281C6B07005A24E9 /* MyNoteyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF3631281C6B07005A24E9 /* MyNoteyApp.swift */; };
+		6DCF3634281C6B07005A24E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF3633281C6B07005A24E9 /* ContentView.swift */; };
+		6DCF3636281C6B09005A24E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DCF3635281C6B09005A24E9 /* Assets.xcassets */; };
+		6DCF3643281C6B0A005A24E9 /* MyNoteyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF3642281C6B0A005A24E9 /* MyNoteyTests.swift */; };
+		6DCF364D281C6B0A005A24E9 /* MyNoteyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF364C281C6B0A005A24E9 /* MyNoteyUITests.swift */; };
+		6DCF364F281C6B0A005A24E9 /* MyNoteyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF364E281C6B0A005A24E9 /* MyNoteyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DCF363F281C6B0A005A24E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DCF3626281C6B07005A24E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCF362D281C6B07005A24E9;
+			remoteInfo = MyNotey;
+		};
+		6DCF3649281C6B0A005A24E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DCF3626281C6B07005A24E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DCF362D281C6B07005A24E9;
+			remoteInfo = MyNotey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D459153281D4F6400ACEA6C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6DCF362E281C6B07005A24E9 /* LilNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCF3631281C6B07005A24E9 /* MyNoteyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteyApp.swift; sourceTree = "<group>"; };
+		6DCF3633281C6B07005A24E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DCF3635281C6B09005A24E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DCF363E281C6B0A005A24E9 /* MyNoteyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCF3642281C6B0A005A24E9 /* MyNoteyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteyTests.swift; sourceTree = "<group>"; };
+		6DCF3648281C6B0A005A24E9 /* MyNoteyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNoteyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCF364C281C6B0A005A24E9 /* MyNoteyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteyUITests.swift; sourceTree = "<group>"; };
+		6DCF364E281C6B0A005A24E9 /* MyNoteyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNoteyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DCF362B281C6B07005A24E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF363B281C6B0A005A24E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF3645281C6B0A005A24E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DCF3625281C6B07005A24E9 = {
+			isa = PBXGroup;
+			children = (
+				6DCF3630281C6B07005A24E9 /* MyNotey */,
+				6DCF3641281C6B0A005A24E9 /* MyNoteyTests */,
+				6DCF364B281C6B0A005A24E9 /* MyNoteyUITests */,
+				6DCF362F281C6B07005A24E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DCF362F281C6B07005A24E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF362E281C6B07005A24E9 /* LilNote.app */,
+				6DCF363E281C6B0A005A24E9 /* MyNoteyTests.xctest */,
+				6DCF3648281C6B0A005A24E9 /* MyNoteyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DCF3630281C6B07005A24E9 /* MyNotey */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF3631281C6B07005A24E9 /* MyNoteyApp.swift */,
+				6DCF3633281C6B07005A24E9 /* ContentView.swift */,
+				6DCF3635281C6B09005A24E9 /* Assets.xcassets */,
+				6D459153281D4F6400ACEA6C /* SplashView.swift */,
+			);
+			path = MyNotey;
+			sourceTree = "<group>";
+		};
+		6DCF3641281C6B0A005A24E9 /* MyNoteyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF3642281C6B0A005A24E9 /* MyNoteyTests.swift */,
+			);
+			path = MyNoteyTests;
+			sourceTree = "<group>";
+		};
+		6DCF364B281C6B0A005A24E9 /* MyNoteyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF364C281C6B0A005A24E9 /* MyNoteyUITests.swift */,
+				6DCF364E281C6B0A005A24E9 /* MyNoteyUITestsLaunchTests.swift */,
+			);
+			path = MyNoteyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DCF362D281C6B07005A24E9 /* MyNotey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCF3652281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNotey" */;
+			buildPhases = (
+				6DCF362A281C6B07005A24E9 /* Sources */,
+				6DCF362B281C6B07005A24E9 /* Frameworks */,
+				6DCF362C281C6B07005A24E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotey;
+			productName = MyNotey;
+			productReference = 6DCF362E281C6B07005A24E9 /* LilNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DCF363D281C6B0A005A24E9 /* MyNoteyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCF3655281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNoteyTests" */;
+			buildPhases = (
+				6DCF363A281C6B0A005A24E9 /* Sources */,
+				6DCF363B281C6B0A005A24E9 /* Frameworks */,
+				6DCF363C281C6B0A005A24E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DCF3640281C6B0A005A24E9 /* PBXTargetDependency */,
+			);
+			name = MyNoteyTests;
+			productName = MyNoteyTests;
+			productReference = 6DCF363E281C6B0A005A24E9 /* MyNoteyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DCF3647281C6B0A005A24E9 /* MyNoteyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DCF3658281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNoteyUITests" */;
+			buildPhases = (
+				6DCF3644281C6B0A005A24E9 /* Sources */,
+				6DCF3645281C6B0A005A24E9 /* Frameworks */,
+				6DCF3646281C6B0A005A24E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DCF364A281C6B0A005A24E9 /* PBXTargetDependency */,
+			);
+			name = MyNoteyUITests;
+			productName = MyNoteyUITests;
+			productReference = 6DCF3648281C6B0A005A24E9 /* MyNoteyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DCF3626281C6B07005A24E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6DCF362D281C6B07005A24E9 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					6DCF363D281C6B0A005A24E9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6DCF362D281C6B07005A24E9;
+					};
+					6DCF3647281C6B0A005A24E9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 6DCF362D281C6B07005A24E9;
+					};
+				};
+			};
+			buildConfigurationList = 6DCF3629281C6B07005A24E9 /* Build configuration list for PBXProject "MyNotey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DCF3625281C6B07005A24E9;
+			productRefGroup = 6DCF362F281C6B07005A24E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DCF362D281C6B07005A24E9 /* MyNotey */,
+				6DCF363D281C6B0A005A24E9 /* MyNoteyTests */,
+				6DCF3647281C6B0A005A24E9 /* MyNoteyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DCF362C281C6B07005A24E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF3636281C6B09005A24E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF363C281C6B0A005A24E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF3646281C6B0A005A24E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DCF362A281C6B07005A24E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF3634281C6B07005A24E9 /* ContentView.swift in Sources */,
+				6DCF3632281C6B07005A24E9 /* MyNoteyApp.swift in Sources */,
+				6D459154281D4F6400ACEA6C /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF363A281C6B0A005A24E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF3643281C6B0A005A24E9 /* MyNoteyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DCF3644281C6B0A005A24E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCF364F281C6B0A005A24E9 /* MyNoteyUITestsLaunchTests.swift in Sources */,
+				6DCF364D281C6B0A005A24E9 /* MyNoteyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DCF3640281C6B0A005A24E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DCF362D281C6B07005A24E9 /* MyNotey */;
+			targetProxy = 6DCF363F281C6B0A005A24E9 /* PBXContainerItemProxy */;
+		};
+		6DCF364A281C6B0A005A24E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DCF362D281C6B07005A24E9 /* MyNotey */;
+			targetProxy = 6DCF3649281C6B0A005A24E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DCF3650281C6B0A005A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DCF3651281C6B0A005A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DCF3653281C6B0A005A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyNotey/Preview Content\"";
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.LilNote;
+				PRODUCT_NAME = LilNote;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DCF3654281C6B0A005A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyNotey/Preview Content\"";
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.LilNote;
+				PRODUCT_NAME = LilNote;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DCF3656281C6B0A005A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.MyNoteyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotey.app/MyNotey";
+			};
+			name = Debug;
+		};
+		6DCF3657281C6B0A005A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.MyNoteyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotey.app/MyNotey";
+			};
+			name = Release;
+		};
+		6DCF3659281C6B0A005A24E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.MyNoteyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNotey;
+			};
+			name = Debug;
+		};
+		6DCF365A281C6B0A005A24E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HD373A4P3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haxi0.MyNoteyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyNotey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DCF3629281C6B07005A24E9 /* Build configuration list for PBXProject "MyNotey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCF3650281C6B0A005A24E9 /* Debug */,
+				6DCF3651281C6B0A005A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCF3652281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNotey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCF3653281C6B0A005A24E9 /* Debug */,
+				6DCF3654281C6B0A005A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCF3655281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNoteyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCF3656281C6B0A005A24E9 /* Debug */,
+				6DCF3657281C6B0A005A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DCF3658281C6B0A005A24E9 /* Build configuration list for PBXNativeTarget "MyNoteyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DCF3659281C6B0A005A24E9 /* Debug */,
+				6DCF365A281C6B0A005A24E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DCF3626281C6B07005A24E9 /* Project object */;
+}
