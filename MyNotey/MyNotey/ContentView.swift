@@ -2,6 +2,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingAlert = false
     @AppStorage("notes") private var notes = ""
     var body: some View {
         NavigationView {
@@ -10,11 +11,13 @@ struct ContentView: View {
                         .padding()
             }
         
-        Button(action: {
+        Button("Copy")
+        {
             UIPasteboard.general.string = notes
-        }) {
-            Text("Copy your note")
-            
+            showingAlert = true
+        }
+        .alert(isPresented: $showingAlert) {
+            Alert(title: Text("Copied to clipboard!"), message: Text("You may press OK"), dismissButton: .default(Text("OK")))
         }
         Spacer()
     }
